@@ -7,12 +7,12 @@
 
 buildPythonPackage rec {
   pname = "tl-eggdeps";
-  version = "0.4";
+  version = "0.5.1";
 
   src = fetchPypi {
     inherit version;
     pname = "tl.eggdeps";
-    sha256 = "a99de5e4652865224daab09b2e2574a4f7c1d0d9a267048f9836aa914a2caf3a";
+    sha256 = "16e6593b676cfed783e9f8c257ee18a6e7e6d4cb27df2e9aa4a8ce253f30d94f";
   };
 
   propagatedBuildInputs = [ zope_interface zope_testing ];
