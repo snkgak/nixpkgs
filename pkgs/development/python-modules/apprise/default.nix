@@ -5,11 +5,11 @@
 
 buildPythonPackage rec {
   pname = "apprise";
-  version = "0.9.5.1";
+  version = "0.9.6";
 
   src = fetchPypi {
     inherit pname version;
-    sha256 = "sha256-vwkHA66xK4LGhdazZ0o93+cSpGwgiTCMm8IC8D4G1Y0=";
+    sha256 = "15ed06208197c9d28fd83cd69e727b48280879a4c611afd6b5aea5d0def397f8";
   };
 
   nativeBuildInputs = [ Babel installShellFiles ];
